@@ -8,5 +8,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegirl141997/JavaScript.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codegirl141997/JavaScript/issues"
+  },
+  "homepage": "https://github.com/codegirl141997/JavaScript#readme"
 }
