@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/codegirl141997/JavaScript.git"
   },
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/codegirl141997/JavaScript/issues"
   },
