@@ -71,6 +71,7 @@ console.log(flag);
 console.log(typeof flag);
 
 
+// terms
 //Hoisting: Hoisting means your accesing the variable before decleartion 
 
 console.log(m); // error Cannot access 'm' before initialization
@@ -80,4 +81,4 @@ console.log(m); // its giving undefined
 var  m =10;
 
 console.log(m); //Cannot access 'm' before initialization
-const m =10; /test
+const m =10; 
