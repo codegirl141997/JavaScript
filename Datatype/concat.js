@@ -62,17 +62,37 @@ let totalAmount = "2000";
 console.log(+totalAmount+ 1); //2000+200=2200 // 2000+1 =20001
 
 // Unary Negation (-) :
-console.log(-"42" + 100);// 42100
+console.log(-"42" + 100);// 42-100=58
 console.log("-130"-20); //-130-20=-150
 
 let salary = "30000";
-console.log(salary+2000); // convert salary into number 
-console.log(+salary+2000);
+console.log(salary+2000); // 
+console.log(+salary+2000); //convert salary into number +salary 
 
-console.log(100- -"40");//140
 
+console.log(100- -"40");//140 // minus mius = plus mathamatic rule 
 console.log(+"hello"+2);
 
 
 
+console.log(1-"1"); //1-1 =0
+console.log("5"-2); //5-2-=3
+console.log("10"-"4");//6
+console.log("hello"-2); //Nan
+console.log(10-"naveen"); //Nan
 
+console.log(1+"1"); //11
+console.log("1"+1); //1
+console.log(1+1);//1+1=2
+console.log("1"+"1"); //11
+
+console.log("========================")
+
+
+console.log(10/"2"); //10/2 =5
+console.log("20"/"5"); //20/5=4
+console.log("20"/"testing"); //Nan
+
+console.log("===========================");
+
+console.log(+"hello"+2);
