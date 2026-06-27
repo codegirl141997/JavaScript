@@ -22,3 +22,19 @@ console.log(typeof n1);
 console.log(typeof n2);
 
 console.log(n1==n2);
+
+// Loose Equality (==) the forgiving one ==
+//Whenn you use ==, javascript performs something called type Coercion. It looks  
+
+console.log(true==1); //true (true becomes 1)
+console.log(false==0); //true (false becomes 0)
+console.log(""==0); // true (empty String becomes 0)
+console.log([]==0); //  true (empety array becomes 0)
+
+console.log(true===1); //false (boolean is not number)
+console.log(false===0); //false (boolean is not number)
+console.log(""===0); // false (String is not number)
+console.log([]===0); // false (object is not number)
+
+
+// === : if the types dont match , the answer always false. 
