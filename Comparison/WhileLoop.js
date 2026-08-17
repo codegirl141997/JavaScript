@@ -110,6 +110,7 @@ while (a<=10) {
 
 }
 
+
 //Print 1 to 10 and skip 5.
 let a=1
 while (a<=10) {
