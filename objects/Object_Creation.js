@@ -108,3 +108,10 @@ let emp =
     devices:['mac', 'ipone',]
 
 };
+
+
+//Heap Memory check 
+
+console.log("Heap Total:", (mem.heapTotal / 1024 / 1024).toFixed(2) + " MB");
+console.log("Heap Used:", (mem.heapUsed / 1024 / 1024).toFixed(2) + " MB");
+console.log("RSS:", (mem.rss / 1024 / 1024).toFixed(2) + " MB");
