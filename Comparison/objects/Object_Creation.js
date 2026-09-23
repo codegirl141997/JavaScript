@@ -83,13 +83,13 @@ let user1 =
     zip:1213
 }
 
-//js objevt to json ===> this concept we ll use in API Automation also (This process also called Serialiazation)
+//js objevt to json ===> this concept we ll use in API Automation also (This process also called Serialiazation) also called 'Marshlling'
 console.log(user1);
 let user1Json= JSON.stringify(user1) //JSON is String
 console.log(user1Json);
 console.log(typeof user1Json);
 
-// JSON String ---> JS Object: De-Serialization 
+// JSON String ---> JS Object: De-Serialization also called 'unmarshling'
 
 let userobj = JSON.parse(user1Json)
 console.log(userobj);
@@ -98,3 +98,13 @@ console.log(typeof userobj);
 console.log(user.name === userobj.name);
 console.log(user===userobj); // object refrence : different memeroy location
 
+// in this particular object can we create array 
+
+let emp = 
+{
+    name:'xyz',
+    age: 30,
+    city: 'pune',
+    devices:['mac', 'ipone',]
+
+};
