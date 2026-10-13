@@ -114,12 +114,36 @@ console.log(index4); // Sometimes it will return -1 if the element is not found 
 
 
 
+// Inculde method: The include method : Check if the element is present in the array or not
 
+let nums = [1, 2, 3, 4, 5];
+let isPresent = nums.includes(3);
+console.log(isPresent); // true
 
+// 10. Join method: The join method : Join the elements of the array into a string
 
+let arr = ['a', 'b', 'c', 'd', 'e'];
+let newarr = arr.join('-');
+console.log(newarr); // a-b-c-d-e
 
+//11 toString method: The toString method : Convert the array into a string
 
+let arr2 = ['a', 'b', 'c', 'd', 'e'];
+let newarr2 = arr2.toString();
+console.log(newarr2); // a,b,c,d,e
 
+ // 12. at method: The at method : Get the element at the specified index support neagtive array
+  
+let arr3 = ['a', 'b', 'c', 'd', 'e'];
+let newarr3 = arr3.at(2);
+console.log(newarr3); // c
+
+//13. foreach method: The forEach method : Iterate over the array and perform the specified action on each element
+
+let arr4 = ['a', 'b', 'c', 'd', 'e'];
+arr4.forEach((element, index) => {
+    console.log(`Element at index ${index} is ${element}`);
+});
 
 
 
